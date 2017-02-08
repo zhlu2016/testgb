@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: stage1.mybluemix.net
+  name: testgb
+  host: testgb
+  disk_quota: 1024M
+  services:
+  - Availability Monitoring-qu
